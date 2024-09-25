@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>weather</title>
+</head>
+<body  >
+<!-- ------------nav bar------------------------------->
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-transparent z-3 ">
+        <div class="container-fluid   w-75">
+            <img src="./photo/logo.png" alt="">
+          <h1 class="navbar-brand" href="#">Weather
+            </h1>
+       
+ 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse p-4 pb-5" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-3 mb-lg-0">
+              <li class="nav-item   ">
+                <a class="nav-link  active activee" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ms-3  ">
+                <a class="nav-link ps-3 pe-3 text-white" href="#">News</a>
+              </li>
+              
+              <li class="nav-item ms-3  ">
+                <a class="nav-link ps-3 pe-3 text-white " href="#" > Live cameras</a>
+              </li>
+
+              <li class="nav-item ms-3 "> 
+                <a class="nav-link text-white ps-3 pe-3" href="#" > Photos</a>
+              </li>
+
+              <li class="nav-item  ms-3  "> 
+                <a class="nav-link text-white ps-3 pe-3" href="./contact.html" > Contact</a>
+              </li>
+            </ul>
+             
+          </div>
+        </div>
+      </nav>
+
+
+<!-- ---------------------search----------------------- -->
+
+              <div  id="searchdiv"  >
+                <div class=" w-75 m-auto  " id="searchhh">
+                   <input type="text " id="searchh" class=" w-100 rounded-5 p-3  text-white bg-dark border-0 "   placeholder=" Find your location...">    
+                <button class="btn  rounded-5   " id="button"  >Find  </button>
+         
+                </div>
+                 
+                
+
+                
+                </div>
+
+
+ 
+
+
+<!-- -----------display --------------------------- -->
+  <div class="w-100 mb-5 ">
+      <div class=" displaybox  " > 
+               <div class=" row w-75 mx-auto rounded-4  displaybox2 overflow-hidden ">
+
+                        <div class="col-md-4 text-white zoom2   " > 
+                            <div class="row    pt-2 text-center shadow-lg bg-gradient" >
+                             
+                              <p id="day1" class="col-md-6  " >Wednesday
+                              </p>
+                              <p id="date1"class="col-md-6  ">25 September  </p>
+            
+                             </div>
+                                                                      
+                            <div class="text-start   p-4 row  ">
+                                      <h5 id="city" >     Alexandria             </h5>
+                                      <p class="headfont" id="degree1">  27.2C           </p>
+                                      <div id="image1"><img  src="./photo/113.webp" alt="" class="image">                        </div>
+                                      <h6 class="mb-3 text-info" id="desc">clear sky     </h6> 
+                                                              
+                                                           
+                                       <div class="mb-4  d-flex justify-content-between">
+                                           <span class="me-2 ">                      
+                                              <img src="./photo/icon-umberella.png" alt="" >
+                                              <small id="clouds">   0%            </small>                      
+                                            </span>                                  
+                                                               
+                                                               
+                                            <span class="me-2">
+                                               <img src="./photo/icon-wind.png" alt="">
+                                               <small id="speed">    4.78km/h            </small> 
+                                             </span>
+                                                                
+                                            <span class="me-2">
+                                              <img src="./photo/icon-compass.png" alt="">
+                                              <small id="deg">     10deg          </small>   
+                                             </span>
+ 
+                                       </div>
+                              </div>
+                        </div>
+              
+
+
+
+
+                         <div class="col-md-4  bg-gradient   text-white  zoom   "> 
+                           <div class="head2 row pt-2  bg-gradient  shadow-lg text-center ">
+                             <p class=" col-md-12 " id="day2">Thursday                </p>                
+                           </div>
+                           <div class="mt-5 text-center row  ">
+                             <div id="image2">
+                              <img  src="./photo/353.png" alt="" class="image">
+                             </div>
+                                                                          
+                            <small class="mb-3 col-md-12" id="Deg2"> 27.2o </small> 
+
+                            <small class="col-md-12 " id="desc2"> clear sky        </small> 
+                                                                        
+                           </div>
+                          </div>
+
+
+                        <div class="col-md-4   body3  text-white zoom2  " > 
+                            <div class="row bg-gradient shadow-lg  text-center pt-2">
+                              <p class="col-md-12" id="day3"> Friday
+                              </p>            
+                            </div>
+                              <div class="row text-center ">
+                                 <div id="image3">   <img  src="./photo/302.png" alt="" class="image pt-5">                          
+                                 </div>                     
+                                <small class="mb-3 col-md-12 " id="Deg3">    26.1o        </small>                        
+                                <small id="desc3" class="col-md-12 ">   clear sky     </small> 
+                              </div>
+                           
+                                                      
+                      </div>  
+
+
+                                                
+      </div>
+              </div>                                  
+  </div>
+
+
+                                             
+                                    
+                                 
+
+        
+                                                          
+            
+                                      
+                                       
+                                  
+
+           
+                                  
+
+           
+                  
+          
+
+
+        
+<!-- ----------------footer start------------------- -->
+
+         <div    class="footer  w-100 text-center   pt-5" > 
+
+        <div class="divFooter row m-auto pe-5 ">
+
+               <div class="col-lg-9 foterdiv ">
+                    <input class="buttonFooter w-100"  placeholder="Enter your email to subscribe...">
+                    <button class="  rounded-5  subbuttn" >Subscribe</i></button>
+
+                  </div>
+
+                          <div class="col-lg-3 icons">
+                            <div class="     ">  <a class="divIcon me-2" href=""><i class="fa-brands fa-facebook-f pe-2 ps-2  "></i></a></div>
+                            <div class="     ">  <a class="divIcon me-2 "  href=""><i class="fa-brands fa-twitter p-1 "></i></a></div>
+                            <div class="   ">  <a class="divIcon me-2 " href=""><i class="fa-brands fa-google-plus-g  "></i></a></div>
+                            <div class="  ">  <a class="divIcon me-2 " href=""><i class="fa-brands fa-pinterest p-1"></i></a></div>
+
+                            
+                            
+                            
+                            
+                          </div>
+
+              <div class="mb-5"><p class="text-secondary  d-flex align-content-end">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p></div>              
+        </div>
+          
+        
+        </div>
+     
+ 
+
+
+
+  
+          
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>

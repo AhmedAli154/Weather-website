@@ -1,0 +1,114 @@
+body{
+    background-color: #1E202B; }
+  ::placeholder {
+        color: rgb(207, 207, 207);
+        
+       }
+    .inptbg{
+        background-color: #1E202B; 
+        border: 1px solid #4f4f4f;
+     }   
+      .navbar-nav a {
+           border: 2px solid transparent;
+       border-radius: 30px;
+        transition: 0.3s ease;
+       font-weight: 400;
+      }
+      .nav-item:hover  a   {
+     
+        border: 2px solid #009AD8;
+       border-radius: 30px;
+        color: #009AD8;
+      }
+      .navbar-nav .activee {
+       border: 2px solid #009AD8;
+       border-radius: 30px;
+        color: #009AD8;
+      }
+      /* -------------end nav------------------ */
+     #searchdiv{
+          text-align: center;
+          margin-bottom: 70px;
+       }
+      
+     
+    
+     .searchh{
+        background-color: #262936;
+     }
+    
+ 
+     
+     .content{
+        background: #262936;
+  border-radius: 10px;
+  overflow: hidden;
+  color:rgb(166, 166, 166);
+     }
+     
+       
+       
+       
+       .footer{
+          display: flex;
+          justify-content: space-between;
+          background-color: #262936;
+       }
+       .foterdiv{
+        position: relative;
+        margin-bottom: 30px;
+        }
+
+       .buttonFooter{
+   padding: 20px 100px 20px 20px;
+  background: #1e202b;
+  width: 100%;
+  color: rgb(116, 116, 116);
+  border-radius: 50px;
+  border: 1px solid #1e202b;
+
+  
+    }
+    .subbuttn{
+        background-color: #009AD8;
+     color: white;       
+     position: absolute;
+     right: 20px;
+     top: 5px;
+     bottom: 5px;
+     border: 1px  #009AD8; 
+       }
+    .divFooter{
+       width: 80%;
+       display: flex;
+       justify-content:center;
+    }
+       .icons{
+          transform: translateY(10%);
+          display: flex;
+          flex-wrap: nowrap;
+          justify-content: flex-end;
+          transition:all 0.5s ease;
+          }
+       .divIcon{
+           border-radius: 50%;  
+           color: #009ad8;
+    line-height: 2;
+    font-size: 1.4285714286em;
+    background: #1e202b;
+    text-align: center;
+    padding: 5px;
+    width: 40px;
+        height: 40px;
+       }
+       .divIcon:hover{
+          background-color: #009ad8;
+          color: white;
+       }
+       .zoom:hover{
+     background-color: #1f212b;
+    }
+    .zoom2:hover{
+     background-color: #4B4E5B;  
+    }
+    
